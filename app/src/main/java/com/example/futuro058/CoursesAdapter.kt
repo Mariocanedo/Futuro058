@@ -26,8 +26,8 @@ private var listCourses = listOf<CoursesEntity>()
 
     // FUNCION PARA SELECCIONAR
 
-    fun selectedCourse(): LiveData<CoursesEntity> = SelectedCourse
-
+    fun selectedCourse():
+    LiveData<CoursesEntity> = SelectedCourse
 
 
     inner class  CoursesVH(private val mBinding:  CoursesListBinding):

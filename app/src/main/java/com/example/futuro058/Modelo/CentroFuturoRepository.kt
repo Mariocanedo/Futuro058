@@ -56,7 +56,7 @@ class CentroFuturoRepository (private val centroFuturoDao: CentroFuturoDao) {
         return service.getOrNull()?.body()?.let { courseDetail ->
             // guardp los datos que viene del mapper y luego se los paso a dao directo
             val courseDetailEntity = fromInternetToCourseDetailEntity(courseDetail)
-            //inserto los detalles de los curso
+            //inserto los detalles de los curso DEL REPOSITORIO
             centroFuturoDao.insertCourseDetail(courseDetailEntity)
             courseDetailEntity
         }

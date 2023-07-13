@@ -31,7 +31,7 @@ interface CentroFuturoDao {
 
     // da error por momentanemante no se ocupa
    //@Query("SELECT * FROM course_details_table  ORDER BY id ASC")
-   // suspend fun  getCourseDetailByID(id:String): CoursesDetailEntity?
+   //suspend fun  getCourseDetailByID(id:String): CoursesDetailEntity?
 
 
 
