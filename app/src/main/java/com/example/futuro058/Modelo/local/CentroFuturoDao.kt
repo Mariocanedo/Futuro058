@@ -30,8 +30,8 @@ interface CentroFuturoDao {
 
 
     // da error por momentanemante no se ocupa
-   //@Query("SELECT * FROM course_details_table  ORDER BY id ASC")
-   //suspend fun  getCourseDetailByID(id:String): CoursesDetailEntity?
+  @Query("SELECT * FROM course_details_table  WHERE id=:id")
+ fun  getCourseDetailByID(id:String): LiveData<CoursesDetailEntity?>
 
 
 

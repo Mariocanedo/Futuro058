@@ -74,5 +74,14 @@ dependencies {
     // ciclo de vida
     implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.6.1"
 
+// dependecias de test
+    // Robolectric environment fragmento. actividades
+    testImplementation 'org.robolectric:robolectric:4.4'
+    // anotaciones de test
+    testImplementation "androidx.arch.core:core-testing:2.2.0"
+    // mockito
+    testImplementation "com.nhaarman.mockitokotlin2:mockito-kotlin:2.0.0-alpha03@jar"
+    testImplementation 'androidx.test:core-ktx:1.5.0'
+    testImplementation 'androidx.test.ext:junit-ktx:1.1.5'
 
 }
