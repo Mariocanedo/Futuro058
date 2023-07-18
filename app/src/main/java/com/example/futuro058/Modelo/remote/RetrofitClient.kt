@@ -9,7 +9,8 @@ class RetrofitClient {
 
  companion object {
      private const val BASE_URL = "https://caso-invest-center-mariocanedo.vercel.app/"
-
+     // parantestear
+  lateinit var retrofitInstance : Retrofit
      fun retrofitInstance():CentroFuturoApi{
 
          val retrofit = Retrofit.Builder()
